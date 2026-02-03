@@ -75,3 +75,45 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Header layout */
+.header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.header-info {
+    width: 63%;
+    padding: 2.5%;
+    box-sizing: border-box;
+}
+
+.header-photo {
+    width: 37%;
+    max-width: 37%;
+    padding: 2.5%;
+    box-sizing: border-box;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header-info {
+        width: 100%;
+        padding: 8px 12px;
+    }
+    
+    .header-photo {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    
+    .header-info p {
+        text-align: center !important;
+    }
+}
