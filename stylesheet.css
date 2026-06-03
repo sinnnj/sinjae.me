@@ -84,14 +84,14 @@ span.highlight {
 }
 
 .header-info {
-    width: 63%;
+    width: 72%;
     padding: 2.5%;
     box-sizing: border-box;
 }
 
 .header-photo {
-    width: 37%;
-    max-width: 37%;
+    width: 28%;
+    max-width: 28%;
     padding: 2.5%;
     box-sizing: border-box;
 }
